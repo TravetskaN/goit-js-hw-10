@@ -15,7 +15,6 @@ function handlerInput(event) {
   event.preventDefault();
   const countryName = countryRequest.value.trim();
   fetchCountries(countryName).then(renderMarkap).catch(showError);
-  // .finally(() => countryRequest.reset());
 }
 function showError() {
   Notify.failure('Oops, there is no country with that name', { width: '400px' });
