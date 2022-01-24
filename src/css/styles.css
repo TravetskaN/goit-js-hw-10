@@ -15,22 +15,22 @@ body {
 #search-box {
   font: inherit;
   padding: 8px;
-  max-width: 320px;
+  max-width: 360px;
   margin-bottom: 16px;
 }
 .countryName {
   display: inline-block;
   margin-left: 5px;
-  font-size: 48px;
+  font-size: 50px;
   font-weight: bold;
 }
 .countryImg {
   display: inline-block;
-  margin-right: 25px;
+  margin-right: 40px;
 }
 .item {
   font-weight: bold;
 }
 .itemS {
-  font-weight: 400;
+  font-weight: 500;
 }
